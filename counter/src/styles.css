@@ -1,0 +1,20 @@
+*{
+  margin: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: yellowgreen;
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 2em;
+  color: white;
+}
+
+button{
+  padding: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  
+}
