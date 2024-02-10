@@ -21,7 +21,7 @@ function ToggleButtonColor(){
         buttonStyle, 
         color: textColor, 
         border: `2px solid ${textColor}`}}>
-          White Theme
+          {backgroundColor === "#1b1b1b" ? "Black Theme" : "White Theme"}
           </button>
 
       <section className="content">
