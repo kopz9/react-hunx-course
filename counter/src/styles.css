@@ -1,20 +1,55 @@
 *{
-  margin: 10px;
-  text-align: center;
-  font-size: 1.3em;
   background-color: yellowgreen;
+  font-size: 16px;
   font-family: sans-serif;
+  list-style: none;
 }
 
 h1{
+  text-align: center;
   font-size: 2em;
-  color: white;
 }
 
 button{
-  padding: 20px;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-  
+  font-size: 20px;
+  border-radius: 7px;
+  padding: 5px;
+
 }
+button:hover{
+  cursor: pointer;
+}
+
+.todo-list{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;  
+}
+
+.todo-list button{
+  margin-left: 10px;
+}
+
+.todo-list input{
+  margin-left: 10px;
+  font-size: 16px;  
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+.todo-items {    
+  font-size: 16px;
+}
+.todo-items li {
+  
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  margin-top: 10px;
+}
+.todo-items button{  
+  font-size: 16px;
+  font: bold;
+  margin-left: auto;
+}
+
